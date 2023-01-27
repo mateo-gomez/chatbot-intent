@@ -1,21 +1,26 @@
+import InputPrompt from "@/components/InputPrompt";
 import Message from "@/components/Message";
+import { useAskCohere } from "@/hooks/useAskCohere";
 import { useState } from "react";
 
 const initialMessages = [{ content: "¿Cómo te puedo ayudar?", isUser: false }];
 
 export default function Home() {
 	const [messages, setMessages] = useState(initialMessages);
+	const askCohere = useAskCohere();
 
 	const addMessage = (content, isUser = false) => {
 		const message = { content, isUser };
 
-		setMessages(message);
+		setMessages((prevMessages) => [...prevMessages, message]);
 	};
 
-	const handleEnterKey = (ev) => {
-		if (ev.key !== "Enter") return;
+	const handleEnterKey = async (value) => {
+		addMessage(value, true);
 
-		addMessage(ev.target.value, true);
+		const response = await askCohere(value);
+
+		addMessage(response.data);
 	};
 
 	return (
@@ -32,12 +37,7 @@ export default function Home() {
 						))}
 					</div>
 
-					<input
-						className="bg-zinc-900 rounded-lg p-4 active:bg-neutral-900 focus-visible:outline-none focus:ring focus:ring-green-800 text-zinc-300 placeholder:text-zinc-700"
-						placeholder="Type your questions..."
-						type="text"
-						onKeyUp={handleEnterKey}
-					/>
+					<InputPrompt handleEnterKey={handleEnterKey} />
 				</div>
 			</main>
 		</>
