@@ -11,8 +11,10 @@
 	{ "label": "productos" },
 	{ "label": "retencion de ventas" },
 	{ "label": "informe inventarios no visible" },
+	{ "label": "Cedulas / nits" },
 	{ "label": "nota credito" },
 	{ "label": "bodegas" },
+	{ "label": "retencion de compras" },
 	{ "label": "cargue" },
 	{ "label": "comprobante de compras" },
 	{ "label": "descargue" },
@@ -33,7 +35,5 @@
 	{ "label": "reimprimir colilla empleado" },
 	{ "label": "exportar nomina" },
 	{ "label": "novedades" },
-	{ "label": "cerrar periodo" },
-	{ "label": "retencion de comrpas" },
-	{ "label": "imprimir rango de documentos" }
+	{ "label": "cerrar periodo" }
 ]

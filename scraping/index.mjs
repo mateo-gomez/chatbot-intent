@@ -1,7 +1,6 @@
 import { load } from "cheerio";
 import { writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { getVideoIdFromYoutubeUrl } from "./utils.mjs";
 import labels from "../src/database/labels.json" assert { type: "json" };
 
 const getPage = async ({ url }) => {
@@ -38,7 +37,7 @@ const dataPromises = $(
 		label,
 		url,
 		content,
-		video: video ? getVideoIdFromYoutubeUrl(video) : "",
+		video: video,
 	};
 });
 
