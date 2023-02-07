@@ -46,12 +46,6 @@ export default function Home() {
 		});
 	}, [messages]);
 
-	const handleSelectOption = async (prompt) => {
-		const iaMessage = await askCohere(prompt);
-
-		addMessage(iaMessage);
-	};
-
 	return (
 		<div className="h-screen">
 			<main className="max-w-4xl min-w-[400px] p-4 m-auto w-md flex flex-col h-full justify-center content-center">
@@ -73,7 +67,7 @@ export default function Home() {
 									key={index}
 									isUser={message.isUser}
 									options={message.options}
-									onSelectOption={handleSelectOption}
+									onSelectOption={handleEnterKey}
 								/>
 							))}
 
