@@ -3,7 +3,17 @@ import Message from "@/components/Message";
 import { useAskCohere } from "@/hooks/useAskCohere";
 import { useEffect, useRef, useState } from "react";
 
-const initialMessages = [{ content: "¿Cómo te puedo ayudar?", isUser: false }];
+const initialMessages = [
+	{
+		content: "¿Cómo te puedo ayudar?",
+		isUser: false,
+		options: [
+			"¿Cómo creo un nit?",
+			"¿Cómo genero un informe de auxiliar?",
+			"¿Cómo exporto la nómina a contabilidad?",
+		],
+	},
+];
 
 export default function Home() {
 	const messagesRef = useRef(null);
@@ -35,37 +45,51 @@ export default function Home() {
 		});
 	}, [messages]);
 
+	const handleSelectOption = async (prompt) => {
+		const iaMessage = await askCohere(prompt);
+
+		addMessage(iaMessage);
+	};
+
 	return (
-		<>
-			<div className="h-screen">
-				<main className="max-w-4xl min-w-[400px] p-4 m-auto w-md flex flex-col gap-4 h-full justify-center content-center">
-					<h1 className="text-3xl font-bold text-center">Chabot Intent</h1>
+		<div className="h-screen">
+			<main className="max-w-4xl min-w-[400px] p-4 m-auto w-md flex flex-col gap-6 h-full justify-center content-center">
+				<h1 className="text-5xl font-bold text-center ">
+					<span className=" underline decoration-green-800 decoration-from-font">
+						Chabot
+					</span>{" "}
+					<span className="overline">Intent</span>
+				</h1>
 
-					<div className="gap-2 p-4 flex flex-col h-5/6 sm:h-[600px] bg-zinc-800 rounded-2xl">
-						<div
-							ref={messagesRef}
-							className=" flex flex-col flex-1 overflow-auto gap-3"
-						>
-							{messages.map((message, index) => (
-								<Message
-									content={message.content}
-									video={message.video}
-									key={index}
-									isUser={message.isUser}
-								/>
-							))}
-						</div>
-
-						<footer className="px-4">
-							<InputPrompt
-								placeholder="Escribe tus preguntas..."
-								className="w-full"
-								handleEnterKey={handleEnterKey}
+				<div
+					className="gap-2 p-4 flex flex-col h-5/6 sm:h-[600px] bg-zinc-800 rounded-2xl"
+					id="main"
+				>
+					<div
+						ref={messagesRef}
+						className=" flex flex-col flex-1 overflow-auto gap-3"
+					>
+						{messages.map((message, index) => (
+							<Message
+								content={message.content}
+								video={message.video}
+								key={index}
+								isUser={message.isUser}
+								options={message.options}
+								onSelectOption={handleSelectOption}
 							/>
-						</footer>
+						))}
 					</div>
-				</main>
-			</div>
-		</>
+
+					<footer className="px-4">
+						<InputPrompt
+							placeholder="Escribe tus preguntas..."
+							className="w-full"
+							handleEnterKey={handleEnterKey}
+						/>
+					</footer>
+				</div>
+			</main>
+		</div>
 	);
 }

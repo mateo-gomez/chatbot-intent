@@ -4,8 +4,9 @@ import YTVideo from "./YTVideo";
 export default function Message({
 	content,
 	video = "",
-	link = "",
+	options = [],
 	isUser = false,
+	onSelectOption,
 }) {
 	const classes = isUser
 		? "bg-green-800 rounded-br-none self-end"
@@ -28,6 +29,22 @@ export default function Message({
 				<div className="flex-1 px-8"></div>
 				<div className={`flex flex-col gap-4 p-2 rounded-lg ${classes}`}>
 					<p>{text}</p>
+
+					{options.length ? (
+						<div className="flex flex-col gap-2">
+							{options.map((option, i) => {
+								return (
+									<button
+										className="border rounded-xl p-1 hover:opacity-80"
+										onClick={onSelectOption.bind(this, option)}
+										key={`option-${i}`}
+									>
+										{option}
+									</button>
+								);
+							})}
+						</div>
+					) : null}
 
 					{video ? (
 						<div className="aspect-video">
