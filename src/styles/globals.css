@@ -1,3 +1,30 @@
 @tailwind base;
+
+/* #main {
+	background-color: #000000;
+	opacity: 1;
+	background-image: repeating-radial-gradient(
+			circle at 0 0,
+			transparent 0,
+			#000000 2000px
+		),
+		repeating-linear-gradient(#51605b55, #51605b);
+} */
+
+*::-webkit-scrollbar {
+	width: 5px;
+}
+* {
+	scrollbar-width: thin;
+	scrollbar-color: red blue;
+}
+*::-webkit-scrollbar-track {
+	background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+	background-color: #52525b;
+	border-radius: 6px;
+}
+
 @tailwind components;
 @tailwind utilities;

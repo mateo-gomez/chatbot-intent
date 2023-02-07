@@ -80,7 +80,7 @@ export default function Home() {
 							{isLoading ? <Loader size={50} /> : null}
 						</div>
 					</div>
-					<footer className="px-4">
+					<footer>
 						<InputPrompt
 							placeholder="Escribe tus preguntas..."
 							className="w-full"
