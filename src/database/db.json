@@ -1,0 +1,230 @@
+[
+  {
+    "label": "Cedulas / nits",
+    "url": "https://begranda.com/web/como-crear-una-cedula-un-nit-o-un-documento/",
+    "content": "1. Ingresamos al módulo de facturación o contabilidad\n2. Vamos al menú – Tablas – Cédulas/Nits\n3. Clic en la opción nuevo y creamos el documento\n4. Agregamos el tipo de documento, número de documento, si es un Nit agregamos el dígito de verificación.\n5. Agregamos el tipo de cliente\n– Cliente\n– Proveedor\n– Ambos\n– Empleado\n6. Agregamos nombres apellidos o el nombre de la empresa, teléfonos, dirección Email y el municipio o el lugar donde se ubica\n7. Elige el tipo de régimen\n– Común\n– Simplificado\n8.También podemos asignarle un vendedor de nuestra empresa a esa cédula o nit, para el momento de las comisiones el sistema ya sepa que cliente es de que vendedor\n9. Podemos agregarle una retención a nuestro cliente, a la hora de generarle la factura, automáticamente el sistema sabe que este cliente ya tiene una retención\n10. Guardamos y listo!",
+    "video": "https://www.youtube.com/embed/eCywZa6zMyo?feature=oembed"
+  },
+  {
+    "label": "centros de costos",
+    "url": "https://begranda.com/web/como-crear-un-centro-de-costos/",
+    "content": "1. Ingresamos al módulo de contabilidad\n2. Vamos al menú – Tablas – Centro de costos\n3. Clic en la opción nuevo y creamos un centro de costos\n4. Elegimos el código que deseamos asignar al centro de costos\n5. Agregamos un nombre\n6. Podemos elegir a alguien encargado del centro de costos, agregando su documento al igual que una observación\n7. Vamos a la opción guardar y listo!",
+    "video": "https://www.youtube.com/embed/2lPZPT1VLTo?feature=oembed"
+  },
+  {
+    "label": "comprobante de pago",
+    "url": "https://begranda.com/web/como-crear-un-comprobante-de-pagos/",
+    "content": "1. Ingresamos al módulo de Contabilidad\n2. Vamos al menú – Tablas – Comprobantes\n3. Clic en la opción nuevo y creamos un comprobante\n4. Elegimos el número del comprobante\n5. Agregamos un nombre\n6. Elegimos un tipo de comprobante\n– Ingresos\n– Egresos\n– Compras\n– Ventas\n– Otros\n– Cierre\n7. Podemos agregar un texto de Email el cual aparecerá por ejemplo al momento de hacer un ingreso o una compra\n8. Tenemos algunas opciones para permitir a nuestros usuarios personalizar su comprobante\n– Que no tenga un consecutivo\n– Que sea consecutivo mensual\n– Que sea consecutivo global\n– Si maneja presupuesto\n– Podemos bloquear el consecutivo\n– Que siempre imprima\n– Que maneje Niif\n– O imprima varios Nits en el mismo documento\n9. Guardamos y listo!",
+    "video": "https://www.youtube.com/embed/VArqwXex6f8?feature=oembed"
+  },
+  {
+    "label": "retencion de compras",
+    "url": "https://begranda.com/web/como-asignar-configuracion-para-la-retencion-en-compras/",
+    "content": "1. Ingresamos al módulo de facturación o contabilidad\n2. Vamos al menú – Tablas – Cédulas/Nits\n3. Buscamos la cédula o Nit que deseamos aplicarle la retención\n4. Editamos el documento\n5. En la parte inferior en la opción «Cuenta retención en compras¨ elegimos el tipo de retención\n6. Y listo, grabamos!",
+    "video": "https://www.youtube.com/embed/ikaufvf7r3g?feature=oembed"
+  },
+  {
+    "label": "informe auxiliar no visible",
+    "url": "https://begranda.com/web/no-puedo-ver-el-informe-de-la-auxiliar/",
+    "content": "A veces nos encontramos con la mala noticia de que no podemos ver el informe de la auxiliar, aquí te enseñaremos a solucionar el problema.\n1. Vamos a la parte superior derecha del navegador en este caso Google chrome, y vemos una lupa con el signo (+)\n2. Damos clic en la lupa y damos en la opción restablecer\n3. Otra opción es con nuestro teclado, oprimimos las teclas Control y la tecla + para acercar o la tecla menos (- ) para alejar hasta llegar al 100% que es el tamaño real de la página\n4. Luego de seguir alguno de las dos ayudas, recargamos la página y listo! solucionado el problema.",
+    "video": "https://www.youtube.com/embed/UDaqH6D3iSM?feature=oembed"
+  },
+  {
+    "label": "imprimir rango documentos",
+    "url": "https://begranda.com/web/como-imprimir-un-rango-de-documentos-2/",
+    "content": "1. Ingresamos al módulo de contabilidad\n2. Vamos al menú – Informes – Comprobantes\n3. Ingresamos el comprobante que queremos filtrar\n4. En la parte derecha del programa, en el icono azul damos clic\n5. Agregamos el rango de documentos que queremos filtrar, el inicial y el final\n6. Automáticamente el sistema generará un PDF con el rango de documentos que filtramos.",
+    "video": "https://www.youtube.com/embed/KS23pkjNDA0?feature=oembed"
+  },
+  {
+    "label": "certificado de retencion",
+    "url": "https://begranda.com/web/como-generar-los-certificados-de-retencion-2/",
+    "content": "1. Ingresamos al módulo de contabilidad\n2. Vamos al menú – Informes – Auxiliares – Impuestos (IVA-Retención)\n3. Seleccionamos el rango de fechas\n4. Seleccionamos la Cédula/Nit\n5. En tipo de impuestos, seleccionamos «Retención fuente»\n6. Podemos elegir la cuenta si lo deseamos\n7. Y damos clic en en botón «generar consulta»\n8. Al generar la consulta, en la parte derecha del sistema, damos clic en «certificado» este nos generara un pdf el cual podemos descargar.",
+    "video": "https://www.youtube.com/embed/Bb_hidtZ4X0?feature=oembed"
+  },
+  {
+    "label": "consulta cartera",
+    "url": "https://begranda.com/web/como-puedo-consultar-la-cartera-de-una-empresa/",
+    "content": "1. Ingresamos al módulo de contabilidad\n2. Vamos al menú – Informes – Auxiliares – Extracto (Proveedor-Cliente)\n3. Filtramos el cliente que queremos consultar\n4. Seleccionamos el rango de fechas si lo deseamos\n5. Seleccionamos si queremos ver los saldos, canceladas etc.\n6. Damos clic en el botón generar consulta\n7. allí encontraremos toda la información de la empresa\n8. Podemos ver el resumen de tu cartera en la opción «Resumen de cartera»\n9. También podemos ver el detalle de tu cartera de todas las cuentas que tengas.",
+    "video": "https://www.youtube.com/embed/DLpSZ67loRE?feature=oembed"
+  },
+  {
+    "label": "familias",
+    "url": "https://begranda.com/web/como-crear-una-familia-en-facturacion/",
+    "content": "1. Ingresamos al módulo de facturación\n2. Vamos al menú – Tablas – Familias\n3. Clic en la opción nuevo y creamos la familia\n4. Agregamos la descripción deseada y listo!",
+    "video": "https://www.youtube.com/embed/TQJXNuMeKc0?feature=oembed"
+  },
+  {
+    "label": "productos",
+    "url": "https://begranda.com/web/como-crear-un-producto-en-facturacion/",
+    "content": "1. Ingresamos al módulo de facturación\n2. Vamos al menú – Tablas – Productos\n3. Clic en la opción nuevo y creamos el producto\n4. Agregamos el código deseado o podemos dejar el código que el sistema nos designa\n5. Agregamos un nombre, una familia y una descripción\n6. Podemos configurar nuestro producto de la manera que se ajuste a nuestro negocio:\n– Costo variable\n– Utilidad %\n– IVA %\n– Precio Sugerido $\n– Precio de venta $\n– Manipula decimales\n– Si no maneja inventario\n– Si quieres vender bajo el costo\n– Si maneja un concepto en el caso de que sea un gasto de la empresa\n– un precio mínimo o un máximo de venta\n7. Agregamos una foto del producto si lo deseamos y listo, guardamos.",
+    "video": "https://www.youtube.com/embed/Aeslwv5ho9E?feature=oembed"
+  },
+  {
+    "label": "retencion de ventas",
+    "url": "https://begranda.com/web/como-calcular-retencion-en-ventas/",
+    "content": "1. Ingresamos al módulo de facturación\n2. Vamos al menú – Tablas – Productos\n3. Vamos al buscador y seleccionamos el producto que queremos aplicarle la retención en ventas\n4. En la parte superior vamos al menú información avanzada\n5. Vamos a la opción de retención en ventas % y elegimos el porcentaje que queremos aplicar\n6. Guardamos\n7. Luego de aplicar la retención al producto, vamos a seleccionar el cliente al que le vamos a aplicar la responsabilidad 07 (retención en la fuente)\n8. Vamos al menú – Tablas – Cédulas/Nits\n9. Vamos al buscador y seleccionamos el cliente o proveedor que queremos aplicarle la responsabilidad 07\n10. Luego de seleccionado el cliente, vamos al menú superior y elegimos la opción responsabilidades\n11. Vamos a encontrar todas las responsabilidades al día establecidas por la DIAN, elegimos la responsabilidad 07\n12. Y listo, guardamos.",
+    "video": "https://www.youtube.com/embed/vJk6Zopax3U?feature=oembed"
+  },
+  {
+    "label": "informe inventarios no visible",
+    "url": "https://begranda.com/web/no-puedo-ver-el-informe-de-inventarios/",
+    "content": "A veces nos encontramos con la mala noticia de que no podemos ver el informe de inventarios, aquí te enseñaremos a solucionar el problema.\n1. Vamos a la parte superior derecha del navegador en este caso Google chrome, y vemos una lupa con el signo (+)\n2. Damos clic en la lupa y damos en la opción restablecer\n3. Otra opción es con nuestro teclado, oprimimos las teclas Control y la tecla + para acercar o la tecla menos (- ) para alejar hasta llegar al 100% que es el tamaño real de la página\n4. Luego de seguir alguno de las dos ayudas, recargamos la página y listo! solucionado el problema.",
+    "video": "https://www.youtube.com/embed/wb_Nx418TWc?feature=oembed"
+  },
+  {
+    "label": "nota credito",
+    "url": "https://begranda.com/web/como-crear-una-cedula-un-nit-o-un-documento-2/",
+    "content": "1. Ingresamos al módulo de facturación o contabilidad\n2. Vamos al menú – Tablas – Cédulas/Nits\n3. Clic en la opción nuevo y creamos el documento\n4. Agregamos el tipo de documento, número de documento, si es un Nit agregamos el dígito de verificación.\n5. Agregamos el tipo de cliente\n– Cliente\n– Proveedor\n– Ambos\n– Empleado\n6. Agregamos nombres apellidos o el nombre de la empresa, teléfonos, dirección Email y el municipio o el lugar donde se ubica\n7. Elige el tipo de régimen\n– Común\n– Simplificado\n8.También podemos asignarle un vendedor de nuestra empresa a esa cédula o nit, para el momento de las comisiones el sistema ya sepa que cliente es de que vendedor\n9. Podemos agregarle una retención a nuestro cliente, a la hora de generarle la factura, automáticamente el sistema sabe que este cliente ya tiene una retención\n10. Guardamos y listo!",
+    "video": "https://www.youtube.com/embed/eCywZa6zMyo?feature=oembed"
+  },
+  {
+    "label": "bodegas",
+    "url": "https://begranda.com/web/como-hacer-una-devolucion-de-venta-nota-credito/",
+    "content": "1. Ingresamos al módulo de facturación\n2. Vamos al menú – Operaciones – Facturar\n3. En el panel de facturación, vamos al último icono naranja «Devolver venta»\n4. Ingresamos la factura que queremos aplicarle la devolución\n5. Colocamos la cantidad que queremos devolver, recuerda que debe ser menos de la cantidad que hay disponible\n6. Debemos colocar una descripción del porqué queremos hacer la devolución, esto es para evitar malos manejos en el sistema\n7. El sistema nos va a generar dos archivos:\n– La factura con la devolución\n– Y un documento de autorización de la devolución\n8. Guardamos los archivos y listo.",
+    "video": "https://www.youtube.com/embed/rFqye9soVk8?feature=oembed"
+  },
+  {
+    "label": "cargue",
+    "url": "https://begranda.com/web/como-crear-una-bodega-en-facturacion/",
+    "content": "1. Ingresamos al módulo de facturación\n2. Vamos al menú – Tablas – Bodegas\n3. Clic en la opción nuevo y creamos una bodega\n4. Elegimos el número de la bodega\n5. Agregamos la dirección de la bodega\n6. Elegimos el centro de costos (representación contable)\n7. Guardamos.",
+    "video": "https://www.youtube.com/embed/P8o6NUz6OFQ?feature=oembed"
+  },
+  {
+    "label": "comprobante de compras",
+    "url": "https://begranda.com/web/como-asignar-configuracion-para-la-retencion-en-compras-2/",
+    "content": "1. Ingresamos al módulo de facturación o contabilidad\n2. Vamos al menú – Tablas – Cédulas/Nits\n3. Buscamos la cédula o Nit que deseamos aplicarle la retención\n4. Editamos el documento\n5. En la parte inferior en la opción «Cuenta retención en compras¨ elegimos el tipo de retención\n6. Y listo, grabamos!",
+    "video": "https://www.youtube.com/embed/ikaufvf7r3g?feature=oembed"
+  },
+  {
+    "label": "descargue",
+    "url": "https://begranda.com/web/como-crear-un-concepto-de-cargue-2/",
+    "content": "1. Ingresamos al módulo de facturación\n2. Vamos al menú – Tablas – Conceptos\n3. Seleccionamos la opción de «cargue»\n4. Seleccionamos el comprobante\n5. Agregamos el consecutivo\n6. Agregamos una descripción\n7. Podemos seleccionar una cédula o un nit y una cuenta\n8. Guardamos y listo",
+    "video": "https://www.youtube.com/embed/AFZAtaKVqqo?feature=oembed"
+  },
+  {
+    "label": "No permite nota credito",
+    "url": "https://begranda.com/web/como-asignar-el-comprobante-de-compras-2/",
+    "content": "1. Ingresamos al módulo de Facturación\n2. Vamos al menú – Utilidades – Entorno\n3. Vamos a la opción variables generales\n4. En la parte inferior de la pantalla vamos a la opción de comprobante de compras «Comp. Compr.»\n5. Agregamos el comprobante que tenemos para las compras y listo, guardamos",
+    "video": "https://www.youtube.com/embed/bnLgftGDKQQ?feature=oembed"
+  },
+  {
+    "label": "comprobante de ventas",
+    "url": "https://begranda.com/web/como-crear-un-concepto-de-descargue-2/",
+    "content": "1. Ingresamos al módulo de facturación\n2. Vamos al menú – Tablas – Conceptos\n3. Seleccionamos la opción de «descargue»\n4. Seleccionamos el comprobante\n5. Agregamos el consecutivo\n6. Agregamos una descripción\n8. Podemos seleccionar una cédula o un nit y una cuenta\n9. Guardamos y listo",
+    "video": "https://www.youtube.com/embed/LIms_Fc5lkM?feature=oembed"
+  },
+  {
+    "label": "productos no visible",
+    "url": "https://begranda.com/web/no-permite-realizar-una-devolucion-de-venta-juego-contable-descuadrado/",
+    "content": "Cuando intentamos hacer una devolución en compras, nos sale un mensaje de error «Señor usuario, juego contable descuadrado» a continuación te enseñaremos a arreglarlo:\n1. Ingresamos al módulo de facturación\n2. Vamos al menú – Tablas – Productos\n3. Buscamos el producto el cual no nos deja hacer la devolución\n4. En el menú del producto, vamos a la opción «Composición contable»\n5. En la cuenta de devolución, agregamos la cuenta que tenemos para devolución en ventas\n6 Intentamos de nuevo hacer la devolución y listo!",
+    "video": "https://www.youtube.com/embed/rasmFfBodJY?feature=oembed"
+  },
+  {
+    "label": "tipo impresion",
+    "url": "https://begranda.com/web/como-asignar-el-comprobante-de-ventas-2/",
+    "content": "1. Ingresamos al módulo de Facturación\n2. Vamos al menú – Utilidades – Entorno\n3. Vamos a la opción variables generales\n4. En la parte inferior de la pantalla vamos a la opción de comprobante de ventas «Comp. ventas.»\n5. Agregamos el comprobante que tenemos para las ventas y listo, guardamos",
+    "video": "https://www.youtube.com/embed/Ngnie63kVMc?feature=oembed"
+  },
+  {
+    "label": "resolucion factura",
+    "url": "https://begranda.com/web/no-puedo-ver-la-maestra-de-productos/",
+    "content": "A veces nos encontramos con la mala noticia de que no podemos ver la maestra de productos, aquí te enseñaremos a solucionar el problema.\n1. Vamos a la parte superior derecha del navegador en este caso Google chrome, y vemos una lupa con el signo (+)\n2. Damos clic en la lupa y damos en la opción restablecer\n3. Otra opción es con nuestro teclado, oprimimos las teclas Control y la tecla + para acercar o la tecla menos (- ) para alejar hasta llegar al 100% que es el tamaño real de la página\n4. Luego de seguir alguno de las dos ayudas, recargamos la página y listo! solucionado el problema.",
+    "video": "https://www.youtube.com/embed/6U-yPsNiTHM?feature=oembed"
+  },
+  {
+    "label": "bodega usuario",
+    "url": "https://begranda.com/web/como-cambiar-el-tipo-de-impresion-2/",
+    "content": "1. Ingresamos al módulo de facturación\n2. Vamos al menú – Utilidades – Permisos de usuarios\n3. Seleccionamos el usuario\n4. Y en la opción «Tipo de impresión» seleccionamos el deseado\n5. Grabar",
+    "video": "https://www.youtube.com/embed/0F6yJYTZGWo?feature=oembed"
+  },
+  {
+    "label": "comprobante de nota credito",
+    "url": "https://begranda.com/web/como-asignar-o-cambiar-la-resolucion-de-facturacion-2/",
+    "content": "1. Ingresamos al módulo de Facturación\n2. Vamos al menú – Utilidades – Entorno\n3. Vamos a la opción variables generales\n4. En la parte media de la pantalla, vamos a la opción que dice «DIAN»\n5. Agregamos la resolución de facturación y listo, guardamos",
+    "video": "https://www.youtube.com/embed/Sd-y2stkPoc?feature=oembed"
+  },
+  {
+    "label": "numero consignacion factura",
+    "url": "https://begranda.com/web/como-asignar-o-quitar-una-bodega-a-un-usuario-3/",
+    "content": "1. Ingresamos al módulo de facturación\n2. Vamos al menú – Utilidades – Permisos de usuario\n3. Seleccionamos el usuario al que le queremos asignar la bodega\n4. Seleccionamos la bodega o las bodegas que queremos asignarle\n5. Y listo grabar!",
+    "video": "https://www.youtube.com/embed/Q4Ed82ep80M?feature=oembed"
+  },
+  {
+    "label": "forma pago usuario",
+    "url": "https://begranda.com/web/como-asignar-el-comprobante-de-devolucion-en-ventas-2/",
+    "content": "1. Ingresamos al módulo de Facturación\n2. Vamos al menú – Utilidades – Entorno\n3. Vamos a la opción variables generales\n4. En la parte inferior de la pantalla vamos a la opción devolución de ventas «Dev. ventas.»\n5. Agregamos el comprobante que tenemos para devolución en ventas y listo, guardamos",
+    "video": "https://www.youtube.com/embed/Noxon9SYb04?feature=oembed"
+  },
+  {
+    "label": "Compra / documento equivalente",
+    "url": "https://begranda.com/web/como-colocar-el-numero-de-consignacion-de-la-factura-2/",
+    "content": "1. Ingresamos al módulo de Facturación\n2. Vamos al menú – Utilidades – Entorno\n3. Vamos a la opción variables generales\n4. En la parte inferior de la pantalla vamos a la opción «Consignación»\n5. Agregamos los datos de la consignación y listo, guardamos",
+    "video": "https://www.youtube.com/embed/mj7ZJMJMkNU?feature=oembed"
+  },
+  {
+    "label": "empleado nomina",
+    "url": "https://begranda.com/web/como-asignar-una-forma-de-pago-a-un-usuario-2/",
+    "content": "1. Ingresamos al módulo de Facturación\n2. Vamos al menú – Utilidades – Permisos de usuario\n3. Seleccionamos el usuario que deseamos asignar el comprobante\n4. Al seleccionar el usuario nos abre una ventana el cual podemos personalizar, en este caso vamos a elegir la forma de pago\n5.Vamos a la parte donde dice, forma de pago y listo guardamos",
+    "video": "https://www.youtube.com/embed/GuWH3P8pZFI?feature=oembed"
+  },
+  {
+    "label": "Formato 2276",
+    "url": "https://begranda.com/web/como-realizar-una-compra-dcto-equivalente-proveedor/",
+    "content": "Cómo realizar una Compra / Dcto. Equivalente Proveedor\n1. Ingresamos al módulo de Facturación\n2. Vamos al menú – Operaciones – Movimientos\n3. Ingresar el tipo de Operación\n4. Ingresar el tipo de Concepto\n5. Ingresar el número de la Factura del Proveedor\n6. Ingresar el Proveedor\n7. Seleccionar la bodega\n8. Click en continuar operación\n9. Después de ingresar esta información el sistema nos muestra la captura de la compra, en la que registramos los productos y/o servicios de la factura y/o Dcto equivalente de mi proveedor.\n10. Al finalizar el registro del detalle del documento, presiona el botón guardar documento\n11. Inmediatamente pasamos a la forma de pago al proveedor Crédito o Contado\n12. Finalmente presiona el botón grabar\n13. Begranda genera una impresión digital como comprobante del documento equivalente, cumpliendo con las especificaciones solicitadas por la DIAN.",
+    "video": "https://www.youtube.com/embed/kE24uNnuHiI?feature=oembed"
+  },
+  {
+    "label": "Formato 220",
+    "url": "https://begranda.com/web/como-crear-un-empleado-en-nomina/",
+    "content": "1. Ingresamos al módulo de facturación o contabilidad\n2. Vamos al menú – Tablas – Cédulas/Nits\n3. Clic en la opción nuevo y creamos el documento\n4. Agregamos el tipo de documento, número de documento\n5. Agregamos el tipo de cliente en este caso empleado\n6. Agregamos nombres apellidos o el nombre de la empresa, teléfonos, dirección Email y el municipio o el lugar donde se ubica\n7. Guardamos\n8. Ingresamos al módulo de Nómina\n9. Vamos al menú – Tablas – Empleados\n10. Damos clic en la opción «nuevo»\n11. En el campo de cédula, llamamos al empleado que creamos en contabilidad\n12. El por defecto trae toda la información que llenamos en contabilidad, el resto de información, procedemos a llenarla\n13. Encontraremos distintas opciones personalizadas las cuales nos ayudaran a crear el nuevo empleado\n14. Damos clic en la opción guardar y listo, tenemos nuestro empleado.",
+    "video": "https://www.youtube.com/embed/2AlCoZ-O0Bo?feature=oembed"
+  },
+  {
+    "label": "error periodo pago",
+    "url": "https://begranda.com/web/como-generar-el-formato-2276-2/",
+    "content": "1. Ingresamos al módulo de Nómina\n2. Vamos al menú – Informes – Historias general\n3. Vamos a la última opción «Formato 2276»\n4. Seleccionamos el rango de fechas y damos clic en la opción cargar\n5. Al cargar el formato 2276, en la parte derecha, podemos exportarlo a excel.",
+    "video": "https://www.youtube.com/embed/e1hWIoBCzxM?feature=oembed"
+  },
+  {
+    "label": "reimprimir colilla empleado",
+    "url": "https://begranda.com/web/como-generar-el-formato-220-2/",
+    "content": "1. Ingresamos al módulo de Nómina\n2. Vamos al menú – Tablas – Empleados\n3. Seleccionamos el empleado\n4. Y en la parte derecha de la pantalla, damos clic en el botón «Formato 220»\n5. Y listo, nos va a generar un pdf el cual podemos descargar",
+    "video": "https://www.youtube.com/embed/UXfPN7qSO3Q?feature=oembed"
+  },
+  {
+    "label": "exportar nomina",
+    "url": "https://begranda.com/web/un-empleado-nuevo-me-esta-calculando-el-periodo-completo/",
+    "content": "Cuando ingresamos un empleado nuevo, y queremos calcular el periodo completo de este, debemos tener en cuenta que a la hora de crearlo el estado del empleado debe ser «nuevo», te enseñaremos como cambiarlo:\n1. Ingresamos al módulo de Nómina\n2. Vamos al menú – Tablas – Empleados\n3. Filtramos el empleado el cual está presentando el problema\n4. En la parte derecha del sistema en la opción «Estado» Cambiamos el estado que tiene por «Nuevo» y listo guardamos\n5. Vamos de nuevo a prenómina, filtramos el empleado y generamos el periodo con éxito.",
+    "video": "https://www.youtube.com/embed/yDGPNZU-x8k?feature=oembed"
+  },
+  {
+    "label": "novedades",
+    "url": "https://begranda.com/web/como-reimprimir-una-colilla-de-pago-de-un-empleado/",
+    "content": "1. Ingresamos al módulo de Nómina\n2. Vamos al menú – Informes – Historias empleados\n3. En la opción buscar empleado, en la parte derecha del sistema, buscamos la cédula o el nombre del empleado el cual queremos reimprimir la colilla de pago\n4. Luego de seleccionar el empleado, seleccionamos el periodo que queremos reimprimir\n5. En la parte superior derecha, damos clic en la opción imprimir o enviar por correo\n6. Y listo, puedes guardarlo",
+    "video": "https://www.youtube.com/embed/IqhIivoWIpY?feature=oembed"
+  },
+  {
+    "label": "cerrar periodo",
+    "url": "https://begranda.com/web/como-exportar-la-nomina-a-contabilidad/",
+    "content": "1. Ingresamos al módulo de Nómina\n2. Vamos al menú – utilidades – exportar a contabilidad\n3.Seleccionamos el periodo que queremos exportar ( Si el periodo ya ha sido exportado este automáticamente nos mostrará un mensaje de alerta)\n4. Luego de seleccionar el periodo, en la parte inferior del sistema, damos clic en la opción exportar\n5. Y listo! nos mostrará un mensaje «Periodo exportado con éxito».",
+    "video": "https://www.youtube.com/embed/QeI328KuJjQ?feature=oembed"
+  },
+  {
+    "label": "retencion de comrpas",
+    "url": "https://begranda.com/web/como-agregar-una-novedad-a-un-empleado/",
+    "content": "1. Ingresamos al módulo de Nómina\n2. Vamos al menú – Informes – Prenómina\n3. Vamos a la opción buscar empleado y buscamos el empleado al que deseamos agregar una novedad\n4. Damos clic en el botón «agregar novedad»\n5. Al dar clic, saldrá una ventana emergente, agregamos el concepto que o novedad que deseamos agregar y listo!\n6. guardamos.",
+    "video": "https://www.youtube.com/embed/r4ZfWv7dpM8?feature=oembed"
+  },
+  {
+    "label": "imprimir rango de documentos",
+    "url": "https://begranda.com/web/como-cerrar-un-periodo-en-nomina/",
+    "content": "1. Ingresamos al módulo de nómina\n2. Vamos al menú – Utilidades – Cierre de periodo\n3. Saldrá un recuadro con toda la información del periodo\n4. Damos clic en la opción cerrar periodo y listo (Ten en cuenta que al cerrar un periodo esta opción no se puedes deshacer)",
+    "video": "https://www.youtube.com/embed/8UJbvTIO3D4?feature=oembed"
+  },
+  {
+    "label": "sin datos",
+    "url": "mailto:soporte@begranda.com",
+    "content": "Lo siento, no tengo información en el momento sobre el tema que estás consultando. \n Envíanos tus dudas a soporte@begranda.com y te responderemos cuanto antes",
+    "video": ""
+  }
+]

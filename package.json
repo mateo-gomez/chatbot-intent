@@ -1,25 +1,27 @@
 {
-  "name": "chatbot-intent",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@next/font": "13.1.5",
-    "cohere-ai": "5.0.2",
-    "eslint": "8.32.0",
-    "eslint-config-next": "13.1.5",
-    "next": "13.1.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4"
-  }
+	"name": "chatbot-intent",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"scrap": "node ./scraping/index.mjs"
+	},
+	"dependencies": {
+		"@next/font": "13.1.5",
+		"cheerio": "1.0.0-rc.12",
+		"cohere-ai": "5.0.2",
+		"eslint": "8.32.0",
+		"eslint-config-next": "13.1.5",
+		"next": "13.1.5",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.13",
+		"postcss": "^8.4.21",
+		"tailwindcss": "^3.2.4"
+	}
 }
