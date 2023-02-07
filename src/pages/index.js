@@ -1,4 +1,5 @@
 import InputPrompt from "@/components/InputPrompt";
+import Loader from "@/components/Loader";
 import Message from "@/components/Message";
 import { useAskCohere } from "@/hooks/useAskCohere";
 import { useEffect, useRef, useState } from "react";
@@ -19,7 +20,7 @@ export default function Home() {
 	const messagesRef = useRef(null);
 
 	const [messages, setMessages] = useState(initialMessages);
-	const askCohere = useAskCohere();
+	const [askCohere, isLoading] = useAskCohere();
 
 	const addMessage = (message) => {
 		setMessages((prevMessages) => {
@@ -67,20 +68,23 @@ export default function Home() {
 				>
 					<div
 						ref={messagesRef}
-						className=" flex flex-col flex-1 overflow-auto gap-3"
+						className=" flex flex-col flex-1 overflow-auto"
 					>
-						{messages.map((message, index) => (
-							<Message
-								content={message.content}
-								video={message.video}
-								key={index}
-								isUser={message.isUser}
-								options={message.options}
-								onSelectOption={handleSelectOption}
-							/>
-						))}
-					</div>
+						<div className="flex flex-col gap-3 px-4">
+							{messages?.map((message, index) => (
+								<Message
+									content={message.content}
+									video={message.video}
+									key={index}
+									isUser={message.isUser}
+									options={message.options}
+									onSelectOption={handleSelectOption}
+								/>
+							))}
 
+							{isLoading ? <Loader size={50} /> : null}
+						</div>
+					</div>
 					<footer className="px-4">
 						<InputPrompt
 							placeholder="Escribe tus preguntas..."

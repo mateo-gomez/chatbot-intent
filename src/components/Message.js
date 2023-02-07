@@ -24,7 +24,7 @@ export default function Message({
 	});
 
 	return (
-		<div className={`flex flex-col px-4`}>
+		<div className={`flex flex-col`}>
 			<div className={`flex ${isUser ? "flex-row" : "flex-row-reverse"}`}>
 				<div className="flex-1 px-8"></div>
 				<div className={`flex flex-col gap-4 p-2 rounded-lg ${classes}`}>

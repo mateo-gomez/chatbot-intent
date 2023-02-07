@@ -1,5 +1,11 @@
+import { useState } from "react";
+
 export function useAskCohere() {
-	return async (prompt) => {
+	const [isLoading, setIsLoading] = useState(false);
+
+	const ask = async (prompt) => {
+		setIsLoading(() => true);
+
 		const response = await fetch("/api/ask", {
 			method: "POST",
 			headers: {
@@ -8,6 +14,11 @@ export function useAskCohere() {
 			body: JSON.stringify({ prompt }),
 		});
 
-		return await response.json();
+		const data = await response.json();
+		setIsLoading(() => false);
+
+		return data;
 	};
+
+	return [ask, isLoading];
 }
