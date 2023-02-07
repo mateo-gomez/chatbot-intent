@@ -1,4 +1,8 @@
-export default function InputPrompt({ handleEnterKey }) {
+export default function InputPrompt({
+	handleEnterKey,
+	className,
+	...restOfProps
+}) {
 	const onKeyUp = (ev) => {
 		if (ev.key !== "Enter") return;
 
@@ -6,12 +10,9 @@ export default function InputPrompt({ handleEnterKey }) {
 		ev.target.value = "";
 	};
 
+	const classes = `bg-zinc-900 rounded-lg p-4 active:bg-neutral-900 focus-visible:outline-none focus:ring focus:ring-green-800 text-zinc-300 placeholder:text-zinc-700 ${className}`;
+
 	return (
-		<input
-			className="bg-zinc-900 rounded-lg p-4 active:bg-neutral-900 focus-visible:outline-none focus:ring focus:ring-green-800 text-zinc-300 placeholder:text-zinc-700"
-			placeholder="Type your questions..."
-			type="text"
-			onKeyUp={onKeyUp}
-		/>
+		<input className={classes} type="text" onKeyUp={onKeyUp} {...restOfProps} />
 	);
 }
