@@ -54,13 +54,8 @@ export default function Home() {
 
 	return (
 		<div className="h-screen">
-			<main className="max-w-4xl min-w-[400px] p-4 m-auto w-md flex flex-col gap-6 h-full justify-center content-center">
-				<h1 className="text-5xl font-bold text-center ">
-					<span className=" underline decoration-green-800 decoration-from-font">
-						Chabot
-					</span>{" "}
-					<span className="overline">Intent</span>
-				</h1>
+			<main className="max-w-4xl min-w-[400px] p-4 m-auto w-md flex flex-col h-full justify-center content-center">
+				<h1 className=" text-5xl font-bold text-center mb-8">Chabot Intent</h1>
 
 				<div
 					className="gap-2 p-4 flex flex-col h-5/6 sm:h-[600px] bg-zinc-800 rounded-2xl"
