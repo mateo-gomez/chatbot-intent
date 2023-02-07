@@ -1,6 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 import { askCohere } from "@/services/askCohere";
+import db from "../../database/db.json";
 
 export default async function handler(req, res) {
 	if (req.method !== "POST") {
@@ -11,5 +12,7 @@ export default async function handler(req, res) {
 
 	const prediction = await askCohere([prompt]);
 
-	res.status(200).json({ data: prediction });
+	const data = db.find((record) => record.label === prediction);
+
+	res.status(200).json(data);
 }

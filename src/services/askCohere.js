@@ -8,5 +8,9 @@ export const askCohere = async (prompts) => {
 		inputs: prompts,
 	});
 
-	return response.body.classifications[0].prediction;
+	if (response.statusCode != 200) return "sin datos";
+
+	const prediction = response.body.classifications[0].prediction;
+
+	return prediction;
 };
